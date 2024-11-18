@@ -1,0 +1,78 @@
+{
+  "day": [
+    {
+      "id": 0,
+      "name": "Andrew Mithson",
+      "position": "Digital Artist",
+      "img": "https://img.freepik.com/free-photo/portrait-young-man-posing_23-2148916392.jpg?ga=GA1.1.1855444507.1731930550&semt=ais_hybrid",
+      "time": "day"
+    },
+    {
+      "id": 1,
+      "name": "Lucy McCall",
+      "position": "Digital Artist",
+      "img": "https://img.freepik.com/premium-photo/girl-beauty-portrait-smoke_151341-593.jpg?w=740",
+      "time": "day"
+    },
+    {
+      "id": 2,
+      "name": "Ian Westley",
+      "position": "Digital Painting",
+      "img": "https://img.freepik.com/free-photo/front-view-man-athletic-wear-earbuds-outdoors_23-2148773858.jpg?ga=GA1.1.1855444507.1731930550&semt=ais_hybrid",
+      "time": "month"
+    },
+    {
+      "id": 3,
+      "name": "Luke Brian",
+      "position": "Digital Photography",
+      "img": "https://img.freepik.com/free-photo/portrait-man-shadow-with-light-gleam_23-2148228492.jpg?ga=GA1.1.1855444507.1731930550&semt=ais_hybrid",
+      "time": "month"
+    }
+  ],
+  "month": [
+    {
+      "id": 2,
+      "name": "Ian Westley",
+      "position": "Digital Painting",
+      "img": "https://img.freepik.com/free-photo/front-view-man-athletic-wear-earbuds-outdoors_23-2148773858.jpg?ga=GA1.1.1855444507.1731930550&semt=ais_hybrid",
+      "time": "month"
+    },
+    {
+      "id": 3,
+      "name": "Luke Brian",
+      "position": "Digital Photography",
+      "img": "https://img.freepik.com/free-photo/portrait-man-shadow-with-light-gleam_23-2148228492.jpg?ga=GA1.1.1855444507.1731930550&semt=ais_hybrid",
+      "time": "month"
+    },
+    {
+      "id": 4,
+      "name": "Nila Sanders",
+      "position": "Digital Photography",
+      "img": "https://img.freepik.com/premium-photo/portrait-young-man-seen-through-glass_1048944-11453946.jpg?ga=GA1.1.1855444507.1731930550&semt=ais_hybrid",
+      "time": "month"
+    }
+  ],
+  "year": [
+    {
+      "id": 5,
+      "name": "Luke Brian",
+      "position": "Digital Photography",
+      "img": "https://img.freepik.com/free-photo/portrait-man-shadow-with-light-gleam_23-2148228492.jpg?ga=GA1.1.1855444507.1731930550&semt=ais_hybrid",
+      "time": "year"
+    },
+    {
+      "id": 6,
+      "name": "Nila Sanders",
+      "position": "Digital Photography",
+      "img": "https://img.freepik.com/premium-photo/portrait-young-man-seen-through-glass_1048944-11453946.jpg?ga=GA1.1.1855444507.1731930550&semt=ais_hybrid",
+      "time": "year"
+    },
+    {
+      "id": 8,
+      "name": "Lucy McCall",
+      "position": "Digital Artist",
+      "img": "https://img.freepik.com/premium-photo/girl-beauty-portrait-smoke_151341-593.jpg?w=740",
+      "time": "year"
+    }
+  ]
+}
