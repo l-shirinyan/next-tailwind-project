@@ -1,7 +1,3 @@
-import SearchIcon from "@/assets/search.svg";
-import CartIcon from "@/assets/cart.svg";
-import UserIcon from "@/assets/user.svg";
-
 export const navbar = {
   link: [
     {

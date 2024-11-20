@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import { ReactNode } from "react";
 export default function TopNFTs({
   children,
@@ -9,16 +7,27 @@ export default function TopNFTs({
   renderRightMenu?: () => React.ReactNode;
 }) {
   return (
-    <div className="container px-5 sm:px-0 py-10 md:py-20">
+    <section
+      className="container px-5 sm:px-0 py-10 md:py-20"
+      role="region"
+      aria-labelledby="top-nfts-heading"
+    >
       <div className="flex justify-between items-center mt-20">
-        <span className="text-white text-2xl md:text-3xl lg:text-4xl">
+        <h2
+          id="top-nfts-heading"
+          className="text-white text-2xl md:text-3xl lg:text-4xl"
+        >
           Top NFTs now
-        </span>
+        </h2>
         {renderRightMenu?.()}
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-x-10 gap-y-[70px] py-10 md:py-20">
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-x-10 gap-y-9 sm:gap-y-[70px] py-10 md:py-20"
+        role="list"
+        aria-label="List of top NFTs"
+      >
         {children}
       </div>
-    </div>
+    </section>
   );
 }

@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/layouts/header";
 import { arabic, rajdhani, roboto } from "@/fonts/fonts";
 import Footer from "@/layouts/footer";
+import QueryProvider from "@/providers/query_provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,9 +24,11 @@ export default function RootLayout({
         suppressHydrationWarning={true}
         className={`${inter.className} ${roboto.variable} ${arabic.variable} ${rajdhani.variable} bg-dark`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <QueryProvider>
+          <Header />
+          {children}
+          <Footer />
+        </QueryProvider>
       </body>
     </html>
   );
